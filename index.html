@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <title>ProjectX</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
+    <script src="./js/jquery.maskedinput.js"></script>
+    <script src="./js/script.js" charset="utf-8"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <header class="header">
+        <nav class="list">
+          <ul class="menu">
+            <li><a href=# class="lnr lnr-menu" id="menu"></a>
+              <ul class="submenu" id="submenu">
+                <li><a class="scroll" href=#advantages>Advantage</a></li>
+                <li><a class="scroll" href=#blocks_with_button>Our offices</a></li>
+                <li><a class="scroll" href=#girl>Discount</a></li>
+                <li><a class="scroll" href=#statistic>Statistics</a></li>
+                <li><a class="scroll" href=#>Reviews</a></li>
+                <li><a class="scroll" href=#additionl_advantages>Details</a></li>
+                <li><a class="scroll" href=#month_free>Gift</a></li>
+                <li><a class="scroll" href=#footer>Contacts</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <div class="header_content">
+          <div class="address"> 
+            <p>Kharkiv, 3, Sumskay st. <br> info@open1969.com</p>
+            <img src="img/address.svg" alt="address" class="address_img">
+          </div>
+          <div class="logo">
+            <p>Coworking space</p>
+            <img src="img/LOGO.png" alt="logo" class="logo_image">
+          </div>
+          <div class="our_number">
+            <p>+38 (058) 854-93-65 <br> +38 (068) 089-48-83</p>
+            <img src="img/phone.svg" alt="phone" class="phone_img">
+          </div>
+          <div class="social_media">
+            <span class="icon-twitter"></span>
+            <span class="icon-instagram"></span>
+            <span class="icon-facebook last"></span>
+          </div>
+        </div>
+      </header>
+      <div class="main">
+        <div class="banner">
+          <img src="./img/banner.png" alt="banner">
+          <div class="right_banner">
+            <p>Coworking space</p>
+            <img src="img/LOGO.png" alt="logo" class="logo_image">
+            <h2>EUROPEAN OFFICE IN THE CENTRE</h2>
+            <div class="book_place">
+              <h3>BOOK YOUR PLACE</h3>
+              <h3 class="last_h3">RIGHT NOW</h3>
+              <div class="input" id="text-input">
+                <input  id='name1' autocomplete="new-password"  type="text" placeholder="Your name">
+              </div>
+              <div class="input" id="phone-number">
+                <input  id='phone1' autocomplete="new-password" maxlength='13'type="text" placeholder="Your phone number">
+              </div>
+              <div class="button">
+                <button  id="book_place" class="book2">BOOK</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tagline_with_advantages" id="advantages">
+          <div class="tagline">
+            <div class="office">
+              <div class="background_image office_pic">
+                <div class="rectangle_with_text">
+                  <span class="rectangle"><p>Why<strong>WE</strong></p></span>
+                </div>
+                <img  id="office_pic" src="./img/office1.png" alt="office">
+                <div class="tagline_text" >
+                  <p class="first_p">Great companies</p>
+                  <p class="last_p">start in good company</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container container_advantages">
+            <div class="advantages">
+              <div class="whyWe whyWe_pc">
+                <img src="img/Shape1.svg" alt="pic" data-pic="1">
+                <div class="advantage_text" data-id="1">
+                  <p>Modern equipment, Powerful computers</p>
+                </div>
+              </div>
+              <div class="whyWe whyWe_hands">
+                <img src="img/Shape2.svg" alt="pic" data-pic="2"> 
+                <div class="advantage_text" data-id="2">
+                  <p>Various public events</p>
+                </div>
+              </div>
+              <div class="whyWe whyWe_people">
+                <img src="img/Shape3.svg" alt="pic" data-pic="3">
+                <div class="advantage_text" data-id="3">
+                  <p>Comfortable meeting rooms, with the whole set of equipment</p>
+                </div>
+              </div>
+              <div class="whyWe whyWe_discount">
+                <img src="img/Shape4.svg" alt="pic" data-pic="4" class="discount">
+                <div class="advantage_text" data-id="4">
+                  <p>Discounts for regular customers</p>
+                </div>
+              </div>
+              <div class="whyWe whyWe_clock">
+                <img src="img/Shape5.svg" alt="pic" data-pic="5" class="clock"> 
+                <div class="advantage_text" data-id="5"> 
+                  <p>Access to the office 24/7</p>
+                </div>
+              </div>
+              <div class="whyWe whyWe_cleaning">
+                <img id="shape" src="img/Shape6.svg" alt="pic" data-pic="6">
+                <div class="advantage_text" data-id="6">
+                  <p>Quality daily wet cleaning</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="blocks_with_button" id="blocks_with_button">
+          <div class="first_block">
+            <div class="background_image" style="background-image: url(img/office2.png)">
+              <div class="background_1"> 
+                <div class="text_in_block">
+                  <div class="rectangle">
+                    <h2>OFFICE 50 SEATS</h2>
+                  </div>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque ipsum illo id recusandae, corrupti
+                    repudiandaesimilique nihil tempora ut voluptas velit ducimus cum eius, neque iusto iure maiores enim dolor. <a href="#">SEE MORE</a></p>
+                  <div class="button">
+                    <button class="btn book">BOOK</button>
+                    <button class="book2">BOOK</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="second_block">
+            <div class="background_image" style="background-image: url(img/office3.png)">
+              <div class="background_2">
+                <div class="text_in_block">
+                   <div class="rectangle">
+                    <h2>OFFICE 20 SEATS</h2>
+                  </div>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque ipsum illo id recusandae, corrupti repudiandaesimilique nihil tempora ut voluptas velit ducimus cum eius, neque iusto iure maiores enim dolor. <a href="#">SEE MORE</a></p>
+                    <div class="button">
+                      <button class="btn book">BOOK</button>
+                      <button class="book2">BOOK</button>
+                    </div>
+                  </div>
+              </div>
+              </div>
+          </div>
+          <div class="third_block">
+            <div class="background_image" style="background-image: url(img/office4.png)">
+              <div class="background_3">
+                <div class="text_in_block">
+                  <div class="rectangle">
+                    <h2>OFFICE 6 SEATS</h2>
+                  </div>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque ipsum illo id recusandae, corrupti
+                    repudiandaesimilique nihil tempora ut voluptas velit ducimus cum eius, neque iusto iure maiores enim dolor. <a href="#">SEE MORE</a></p>
+                  <div class="button">
+                    <button class="btn book">BOOK</button>
+                    <button class="book2">BOOK</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="help_div">
+          <div class="girl" id="girl">
+            <div class="background_image office5">
+              <div class="background_image office6">
+                <div class="girl-pic">
+                  <img src="img/girl.png" alt="girl">
+                </div>
+                <div id="square">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hurry_up">
+            <h3 class="first_h3">HURRY UP</h3>
+            <p>and get</p>
+            <h3>40% DISCOUNT</h3>
+            <div class="input" id="text-input">
+              <input id='name2' autocomplete="new-password"type="text" placeholder="Your name">
+            </div>
+            <div class="input" id="phone-number">
+              <input  id='phone2' autocomplete="new-password" maxlength='13'type="text" placeholder="Your phone number">
+            </div>
+            <div class="button">
+              <button id='book_discount' class="btn book">BOOK</button>
+              <button id='book_discount' class="book2">BOOK</button>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="statistic" id="statistic">
+          <div class="background_image content" style="background-image: url(img/statistic.png)">
+            <div class="block_1">
+              <div class="number">
+                <h2>1,051 <br><p>sq.ft</p></h2>
+              </div>
+              <div class="text_statistic">
+                <div class="rectangle">
+                  <p>space</p>
+                </div>
+              </div>
+            </div>
+            <div class="block_2">
+             <div class="number">
+                <h2>15</h2>
+              </div>
+              <div class="text_statistic">
+                <div class="rectangle">
+                  <p>offices</p>
+                </div>
+              </div>
+            </div>
+            <div class="block_3">
+              <div class="number">
+                <h2>670</h2>
+              </div>
+              <div class="text_statistic">
+                <div class="rectangle">
+                  <p>computers</p>
+                </div>
+              </div>
+            </div>
+            <div class="block_4">
+              <div class="number">
+                <h2>5,780</h2>
+              </div>
+              <div class="text_statistic">
+                <div class="rectangle">
+                  <p>customers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+        <hr class="last_hr">
+        <!--<div class="reviews">
+         <div class="first_review">
+            <div class="background_image chair">
+              <div class="background_image workplace">
+                <div class="alex-pic">
+                  <div class="position">  
+                    <img src="./img/alex.png" alt="alex">
+                  </div>
+                </div>
+              </div>
+            </div>
+         </div>
+          <div class="second_review">
+            <div class="background_image">
+              <div class="background_image chairs">
+                <div class="boys-pic">
+                  <div class="position">
+                    <img src="./img/boys.png" alt="boys">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="third_review">
+            <div class="background_image place">
+              <div class="background_image place2">
+                <div class="girl2-pic">
+                  <div class="position">
+                    <img src="./img/girl2.png" alt="girl2">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="fourth_review">
+            <div class="background_image place2">
+              <div class="background_image elephant">
+                <div class="girl3-pic">
+                  <div class="position">
+                    <img src="./img/girl3.png" alt="girl3">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>-->
+        <!--<div class="slider">
+          <img  class = "arrow" src="./img/Arrow.png" alt="arrow">
+          <img src="./img/slider.png" alt="slider">
+          <img class = "arrow2" src="./img/Arrow.png" alt="arrow">
+        </div>-->
+        <div class="help_div2">
+          <div class="additionl_advantages" id="additionl_advantages">
+              <div class="background_image office7">
+                <div  class="background_image chair2">
+                  <div class="chair2-pic">
+                    <img src="./img/chair2.png" alt="girl">
+                  </div>
+                  <div id="square">
+                    <div class="additionl_advantages_text">
+                      <p>
+                        It’s all in the details
+                      </p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="position_advantages_pic">
+            <div class="additionl_advantages_pic">
+             <div class="pic metro">
+                <img src="img/metro.svg" alt="pic" data-pic="4">
+                <div class="text">
+                  <div class="advantage_text" data-id="4">
+                    <p>Great location,<br>5 minutes to metro</p>
+                  </div>
+                </div>
+             </div>
+            <div class="pic cup">
+              <img src="img/Cup.svg" alt="pic" data-pic="4">
+              <div class="text">
+                <div class="advantage_text" data-id="4">
+                  <p>Free tea, coffee and sweets</p>
+                </div>
+              </div>
+            </div>
+            <div class="pic book">
+              <img src="img/book.svg" alt="pic" data-pic="4">
+              <div class="text">
+                <div class="advantage_text" data-id="4">
+                  <p>Our own little library</p>
+                </div>
+              </div>
+            </div>
+            <div class="pic people">
+              <img src="img/people.svg" alt="pic" data-pic="4">
+              <div class="text">
+                <div class="advantage_text" data-id="4">
+                  <p>Always good company</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="help_div3">
+        <div class="month_free" id="month_free">
+            <div class="background_image back">
+              <div class="background_image table-pic">
+                <div class="girl-pic">
+                  <div class="join">
+                    <h3>JOIN THE TEAM</h3>
+                    <h2>WORK WITH US</h2>
+                  </div>
+                  <img src="./img/girl5.png" alt="girl">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="get_free_month">
+            <h2>GET A MONTH FREE</h2>
+            <p>Take part in the action simply <u>subscribe</u> to us</p>
+            <div class="input" id="text-input">
+              <input id="name3" autocomplete="new-password"type="text" placeholder="Your name">
+            </div>
+            <div class="input" id="phone-number">
+              <input id='phone3' autocomplete="new-password" maxlength='13' type="text" placeholder="Your phone number">
+            </div>
+            <div class="take_part">
+              <button id="free_month_book" class="btn take">TAKE PART</button>
+              <button id="free_month_book" class="take2">TAKE PART</button>
+            </div>
+          </div>
+      </div>
+        <div class="location" id="location">
+          <div class="city-pic">
+            <img src="./img/city.png" alt="city">
+          </div>
+          <div id="square">
+            <div class="square_text_location">
+              <h2>LOCATION</h2>
+              <h3>Central Kharkiv is the perfect location because of its close proximity to the commercial, retail and  entertainment hubs</h3>
+            </div>
+          </div>
+          <div class="park">
+          <div class="text_location">
+            <div class="rectangle1">
+              <p>Park</p>
+            </div>
+            <div id="line"></div>
+            <div class="circle">
+              <div class="circle2"></div>
+            </div>
+          </div>
+          </div>
+          <div class="market">
+            <div class="text_location">
+              <div class="rectangle1">
+                <p>Market</p>
+              </div>
+              <div id="line"></div>
+            <div class="circle">
+              <div class="circle2"></div>
+            </div>
+          </div>
+          </div>
+          <div class="MC_Don">
+            <div class="text_location">
+              <div class="rectangle1">
+                <p>MC Donald's</p>
+              </div>
+              <div id="line"></div>
+              <div class="circle">
+                <div class="circle2"></div>
+              </div>
+            </div>
+          </div>
+          <div class="open_1969">
+            <div class="text_location">
+              <div class="rectangle1">
+                <p>1969 OPEN</p>
+              </div>
+              <div id="line"></div>
+              <div class="circle">
+                <div class="circle2"></div>
+              </div>
+            </div>
+          </div>
+          <div class="coffee">
+            <div class="text_location">
+              <div class="rectangle1">
+                <p>Coffee life</p>
+              </div>
+              <div id="line"></div>
+              <div class="circle">
+                <div class="circle2"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      <footer>
+        <div id="footer" class="footer">
+         <div class="footer_info">
+            <div class="coworking">
+              <h3>COWORKING SPACE</h3>
+              <p>Kharkiv, 3, Sumskay st. info@open1969.com</p>
+            </div>
+            <div class="follow">
+              <h3>FOLLOW US</h3>
+              <div class="icons">
+                <span class="icon-twitter"></span>
+                <span class="icon-instagram"></span>
+                <span class="icon-facebook last"></span>
+              </div>
+            </div>
+            <div class="contact">
+              <h3>CONTACT</h3>
+              <p>+38 (058) 854-93-65 <br> +38 (068) 089-48-83</p>
+            </div>
+         </div>
+          <div class="down_footer">
+            <div class="logo_footer">
+              <img src="img/LOGO.png" alt="logo" class="logo_image">
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div id="modal_form">
+        <div class="background_color">
+            <div class="modal_background">
+              <img src="./img/modal.png" alt="modal">
+              <div class="header">
+                <div class="modal_text">
+                  <h3>Thank you,</h3>
+                  <h4>your request has been accepted!</h4>
+                  <span id="modal_close">X</span>
+                </div>
+              </div>
+              <div class="main">
+                <h3>We are glad that you joined us</h3>
+              </div>
+              <div class="footer">
+                <h4>Our manager will contact you shortly.</h4>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div id="overlay"></div>
+    </div>
+  </body>
+  </html>
